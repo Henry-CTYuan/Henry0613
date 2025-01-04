@@ -1,0 +1,37 @@
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* 设置背景图片 */
+body {
+  background: url('eth-background.jpg') no-repeat center fixed;
+  background-size: cover; /* 让背景图片覆盖整个页面 */
+  background-position: center center; /* 背景居中 */
+  font-family: 'Roboto', sans-serif;
+  color: yellow; /* 设置文字颜色为白色，方便在深色背景上阅读 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* 使得背景填满整个视口 */
+  text-align: center;
+  margin: 0;
+}
+
+#root {
+  width: 100%;
+  max-width: 1200px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9); /* 半透明背景，使内容不失真 */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
